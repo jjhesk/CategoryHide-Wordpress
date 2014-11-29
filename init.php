@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Vcoin Term Display
+Plugin Name: WP Category Custom Terms Display Control
 Plugin URI:
-Description: Taxonomies Terms Custom Display.
+Description: Taxonomies Terms Custom Display. This plugin allows the custom display controller to display specific terms on each custom taxonomy. 
 Version: 0.1
 Author: Ryo, Hesk
 Author URI:
