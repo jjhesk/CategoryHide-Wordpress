@@ -12,4 +12,4 @@ Just install this package into your plugin directory and it will work out of the
 
 ### how to use it
 
-This module will allow and display allow tax query display from the loop search. User can enable and disable the current existing items on the taxonomy or custom taxonomy terms, so that they will not exposed from the api.
+This module will allow and display allow tax query display from the loop search. User can enable and disable the current existing items on the taxonomy or custom taxonomy terms, so that they will not bw exposed to the api.
