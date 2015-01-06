@@ -15,3 +15,6 @@ We will continue adding more features on this module as it will be to support cr
 ### Compatible to
  - WPML
  - GravityForm
+
+
+Author: Heskeyo Kam
