@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Vcoin Term Display
-Plugin URI:
+Plugin URI: https://github.com/jjhesk/CategoryHide-Wordpress
 Description: Taxonomies Terms Custom Display.
 Version: 0.1
 Author: Ryo, Hesk
-Author URI:
+Author URI: 
 Author Email:
 */
 
