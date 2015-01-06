@@ -17,4 +17,12 @@ We will continue adding more features on this module as it will be to support cr
  - GravityForm
 
 
+
+
+We will be working hard on every single step, never settle!
 Author: Heskeyo Kam
+
+Contributions: 
+If you like my work donation is welcome:
+ - [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ooxfordck@gmail.com&currency_code=&amount=&return=&item_name=Donation+catehide)
+
