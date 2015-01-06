@@ -58,7 +58,7 @@ class vtd_logic
         return $this->_term_id;
     }
 
-    public function do_enqueue_script()
+    public static function do_enqueue_script()
     {
         wp_register_script('switcher', VTDURL . "/js/switcher.js", array(), '1', 'screen');
         wp_register_script('admin_cat', VTDURL . "/js/admin_cat.js", array('switcher'), '1.0', false);

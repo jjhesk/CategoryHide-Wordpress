@@ -62,9 +62,10 @@ class vtd_Loader
         $options = get_option('taxonomy_display_options');
         if (isset($options['capability']) && !empty($options['capability'])) {
             $capability = $options['capability'];
-        } else if (is_numeric($options['level'])) {
-            //maintain the old user level compatibility
-            $capability = self::userdata_get_level();
+        } else if (isset($options['level'])) {
+            if (is_numeric($options['level']))
+                //maintain the old user level compatibility
+                $capability = self::userdata_get_level();
         } else {
             $capability = 'install_plugins';
         }
@@ -95,12 +96,16 @@ class vtd_Loader
     {
         //  $tax = 'category';
         $options = get_option('taxonomy_display_options');
-        $list = $options['taxonomy_list'];
-        foreach ($list as $tax => $val) {
-            if (intval($val) == 1 && $tax == $_GET["taxonomy"]) {
-                add_action($tax . '_edit_form_fields', array(__CLASS__, 'edit_field'), 8, 1);
-                add_filter('manage_edit-' . $tax . '_columns', array(__CLASS__, 'columns'), 8, 1);
-                add_filter('manage_' . $tax . '_custom_column', array(__CLASS__, 'column'), 8, 3);
+        if (isset($options['taxonomy_list'])) {
+            $list = $options['taxonomy_list'];
+            foreach ($list as $tax => $val) {
+                if (isset($_GET["taxonomy"])) {
+                    if (intval($val) == 1 && $tax == $_GET["taxonomy"]) {
+                        add_action($tax . '_edit_form_fields', array(__CLASS__, 'edit_field'), 8, 1);
+                        add_filter('manage_edit-' . $tax . '_columns', array(__CLASS__, 'columns'), 8, 1);
+                        add_filter('manage_' . $tax . '_custom_column', array(__CLASS__, 'column'), 8, 3);
+                    }
+                }
             }
         }
     }
