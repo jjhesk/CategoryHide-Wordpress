@@ -1,4 +1,4 @@
-# Wordpress Category Hide
+# Wordpress Category Hide [![Build Status](https://travis-ci.org/jjhesk/CategoryHide-Wordpress.svg)](https://travis-ci.org/jjhesk/CategoryHide-Wordpress)
 ==============
 
 ### Why
