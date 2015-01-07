@@ -1,4 +1,4 @@
-# Wordpress Category Hide [![Build Status](https://travis-ci.org/jjhesk/CategoryHide-Wordpress.svg)](https://travis-ci.org/jjhesk/CategoryHide-Wordpress)
+# Wordpress Category Hide [![Build Status](https://travis-ci.org/jjhesk/CategoryHide-Wordpress.svg)](https://travis-ci.org/jjhesk/CategoryHide-Wordpress)[![Code Climate](https://codeclimate.com/github/jjhesk/CategoryHide-Wordpress/badges/gpa.svg)](https://codeclimate.com/github/jjhesk/CategoryHide-Wordpress)
 ==============
 
 ### Why
